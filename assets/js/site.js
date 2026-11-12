@@ -473,7 +473,7 @@
     mt.addEventListener('submit', function (e) {
       e.preventDefault();
       var c = cv(), hi = Math.min(c / 0.10, 5000000 + c), lo = c / 0.30;
-      var sdeLo = lo / 3.7, sdeHi = hi / 2.3;
+      var sdeLo = lo / 2.7, sdeHi = hi / 2.7;
       var loan = hi - c, r = 0.105 / 12, nPay = 120, pay = loan * r / (1 - Math.pow(1 + r, -nPay));
       $('#mo-price', mt).textContent = money(lo, 1) + ' – ' + money(hi, 1);
       $('#mo-sde', mt).textContent = money(sdeLo, 1) + ' – ' + money(sdeHi, 1);
