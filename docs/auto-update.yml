@@ -1,0 +1,44 @@
+# Copy this file to .github/workflows/auto-update.yml (GitHub > Add file > Create new file).
+# It refreshes data/news.json and sitemap dates every day. Free on public repositories.
+name: Daily auto-update
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # every day at 09:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh news feed and sitemap dates
+        run: python scripts/auto_update.py
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Auto-update: daily news feed and sitemap dates"
+          git pull --rebase origin main
+          git push origin HEAD:main
