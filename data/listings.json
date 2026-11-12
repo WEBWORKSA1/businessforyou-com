@@ -1,0 +1,105 @@
+{
+  "note": "status 'example' entries are shown on the site with an 'Example listing' badge. Replace or add entries with status 'verified' after review.",
+  "listings": [
+    {
+      "id": "BFY-1001", "status": "example", "added": "2026-11-10",
+      "title": "Residential and light-commercial HVAC service company",
+      "category": "Home services & trades", "type": "Main Street",
+      "country": "United States", "region": "Central Texas",
+      "price": 1450000, "revenue": 2900000, "cashflow": 480000, "established": "2009", "employees": "14",
+      "reason": "Owner retiring", "financing": "Seller will carry up to 10% of the price",
+      "description": "Established heating and air-conditioning contractor serving homeowners and small commercial clients. Roughly 40% of revenue comes from maintenance agreements that renew each spring. Licensed technicians, a dispatcher and an office manager run day-to-day operations; the owner handles estimating and supplier relationships.",
+      "highlights": ["1,100+ active maintenance agreements", "Nine service vans included in the sale", "Owner will stay six months for transition"]
+    },
+    {
+      "id": "BFY-1002", "status": "example", "added": "2026-11-09",
+      "title": "Neighbourhood cafe and bakery with wholesale accounts",
+      "category": "Food & restaurant", "type": "Main Street",
+      "country": "Canada", "region": "Ontario",
+      "price": 285000, "revenue": 720000, "cashflow": 128000, "established": "2015", "employees": "9",
+      "reason": "Relocating out of province", "financing": "Bank financing preferred",
+      "description": "Busy corner cafe with an in-house bakery that also supplies pastries to six local grocers and offices. Ten-year lease with renewal option, fully equipped kitchen and a trained head baker who intends to stay.",
+      "highlights": ["Wholesale accounts add about 18% of sales", "Lease runs to 2034 with renewal", "Recipes and systems documented"]
+    },
+    {
+      "id": "BFY-1003", "status": "example", "added": "2026-11-08",
+      "title": "Shopify home-goods brand with repeat customers",
+      "category": "Online & ecommerce", "type": "Online",
+      "country": "United States", "region": "Remote (US-based)",
+      "price": 640000, "revenue": 1850000, "cashflow": 230000, "established": "2018", "employees": "3",
+      "reason": "Founder starting a new venture", "financing": "Seller note considered",
+      "description": "Direct-to-consumer brand selling kitchen and home textiles through its own store and a marketplace channel. Products are made by two long-standing suppliers. An email list and returning buyers generate a large share of orders, reducing reliance on paid ads.",
+      "highlights": ["Returning customers drive about 45% of orders", "Two suppliers with written agreements", "Runs on roughly 20 owner hours a week"]
+    },
+    {
+      "id": "BFY-1004", "status": "example", "added": "2026-11-07",
+      "title": "B2B scheduling software with annual contracts",
+      "category": "SaaS & software", "type": "Online",
+      "country": "United Kingdom", "region": "Remote (UK)",
+      "price": 1150000, "revenue": 420000, "cashflow": 260000, "established": "2019", "employees": "4",
+      "reason": "Founders focusing on another product", "financing": "Earn-out structure considered",
+      "description": "Appointment and staff-scheduling software used by clinics and service businesses. Most customers pay annually. Hosting costs are low and a part-time developer maintains the code base.",
+      "highlights": ["Most revenue billed annually in advance", "Low monthly customer churn", "Documented code base and deployment"]
+    },
+    {
+      "id": "BFY-1005", "status": "example", "added": "2026-11-06",
+      "title": "Physiotherapy clinic with three treatment rooms",
+      "category": "Health & wellness", "type": "Main Street",
+      "country": "Australia", "region": "Brisbane, QLD",
+      "price": 520000, "revenue": 1100000, "cashflow": 190000, "established": "2012", "employees": "8",
+      "reason": "Principal reducing clinical hours", "financing": "Vendor finance available on part of the price",
+      "description": "Well-reviewed clinic serving sports, workplace and post-surgery patients. Referral relationships with local GPs and sports clubs. Associate physiotherapists are on contracts and the practice software holds full patient history.",
+      "highlights": ["Steady GP and club referrals", "Associates on contracts", "Fit-out completed in 2023"]
+    },
+    {
+      "id": "BFY-1006", "status": "example", "added": "2026-11-05",
+      "title": "Commercial cleaning company with multi-year contracts",
+      "category": "Services (B2B)", "type": "Main Street",
+      "country": "United States", "region": "Phoenix, AZ",
+      "price": 390000, "revenue": 960000, "cashflow": 165000, "established": "2014", "employees": "22",
+      "reason": "Owner moving into another industry", "financing": "SBA-friendly; seller open to a standby note",
+      "description": "Janitorial company cleaning offices, medical suites and property-management portfolios at night. Supervisors manage crews; the owner focuses on sales and client relationships. Contracts typically run one to three years.",
+      "highlights": ["No client above 12% of revenue", "Night supervisors run crews", "Equipment and two vehicles included"]
+    },
+    {
+      "id": "BFY-1007", "status": "example", "added": "2026-11-04",
+      "title": "Boutique fitness studio franchise resale",
+      "category": "Health & wellness", "type": "Franchise resale",
+      "country": "United States", "region": "Charlotte, NC",
+      "price": 310000, "revenue": 640000, "cashflow": 118000, "established": "2017", "employees": "11",
+      "reason": "Owner relocating", "financing": "Franchisor-approved lenders available",
+      "description": "Membership-based studio in a busy retail centre with an established coaching team. The resale includes equipment, the membership base and the remaining franchise term. Transfer requires franchisor approval and training.",
+      "highlights": ["Recurring membership revenue", "Remaining franchise term over six years", "Head coach and front-desk manager in place"]
+    },
+    {
+      "id": "BFY-1008", "status": "example", "added": "2026-11-03",
+      "title": "Licensed childcare centre with waitlist",
+      "category": "Education & childcare", "type": "Main Street",
+      "country": "Canada", "region": "British Columbia",
+      "price": 1050000, "revenue": 1600000, "cashflow": 340000, "established": "2010", "employees": "18",
+      "reason": "Owner retiring", "financing": "Bank financing; seller will assist with licensing transfer",
+      "description": "Licensed centre for infants through school age with a full enrolment and an active waitlist. Qualified educators, a centre director and documented policies make this a manager-run operation.",
+      "highlights": ["Full enrolment with waitlist", "Director-led operations", "Long-term lease in place"]
+    },
+    {
+      "id": "BFY-1009", "status": "example", "added": "2026-11-02",
+      "title": "Auto repair shop with building included",
+      "category": "Automotive", "type": "Main Street",
+      "country": "United States", "region": "Columbus, OH",
+      "price": 875000, "revenue": 1250000, "cashflow": 260000, "established": "2003", "employees": "7",
+      "reason": "Owner retiring after 20+ years", "financing": "Suitable for SBA financing with real estate",
+      "description": "General repair and maintenance shop with six bays and strong online reviews. The sale includes the building and lot. Fleet accounts with local businesses supply a steady base of work.",
+      "highlights": ["Real estate included in price", "Six bays and two lifts recently replaced", "Fleet accounts provide repeat work"]
+    },
+    {
+      "id": "BFY-1010", "status": "example", "added": "2026-11-01",
+      "title": "Salon and spa in a premium shopping district",
+      "category": "Beauty & personal care", "type": "Main Street",
+      "country": "India", "region": "Bengaluru, Karnataka",
+      "price": 145000, "revenue": 260000, "cashflow": 62000, "established": "2016", "employees": "12",
+      "reason": "Owner expanding into another city", "financing": "Part payment over 12 months considered",
+      "description": "Hair, skin and spa services with a loyal client base and a membership package programme. Fully fitted premises, trained stylists and an appointment system with client history.",
+      "highlights": ["Membership packages provide repeat visits", "Trained senior stylists staying on", "Premises renovated in 2024"]
+    }
+  ]
+}
