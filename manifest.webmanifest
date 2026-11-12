@@ -1,0 +1,10 @@
+{
+  "name": "BusinessForYou.com",
+  "short_name": "BusinessForYou",
+  "description": "Find, value, finance and sell small businesses.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F4F6F3",
+  "theme_color": "#0F3B2F",
+  "icons": [{"src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
+}
