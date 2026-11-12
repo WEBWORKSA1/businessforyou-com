@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Acquisition Loan Calculator: Payments, DSCR and Payback | BusinessForYou.com</title>
+<meta name="description" content="Calculate the bank loan, seller note, monthly payments, debt service coverage ratio and payback period for buying a business. Compare SBA 7(a), seller financing and other acquisition funding.">
+<link rel="canonical" href="https://businessforyou.com/business-acquisition-financing.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BusinessForYou.com">
+<meta property="og:title" content="Business acquisition loan calculator">
+<meta property="og:description" content="Monthly payments, DSCR and payback for buying a business.">
+<meta property="og:url" content="https://businessforyou.com/business-acquisition-financing.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0F3B2F">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/site.js"></script>
+<script defer src="assets/js/tools.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="site-header">
+<div class="wrap hdr">
+<a class="brand" href="index.html" aria-label="BusinessForYou.com home"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0F3B2F"/><path d="M14 22a6 6 0 0 1 6-6h18l12 12v20a6 6 0 0 1-6 6H20a6 6 0 0 1-6-6z" fill="#C2961E"/><circle cx="40" cy="26" r="3.6" fill="#0F3B2F"/></svg><span>BusinessForYou<small>.com</small></span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" class="nav" aria-label="Main">
+<a href="businesses-for-sale.html">Buy</a>
+<a href="sell-your-business.html">Sell</a>
+<a href="business-valuation-calculator.html">Value</a>
+<a href="business-acquisition-financing.html">Finance</a>
+<a href="franchises.html">Franchises</a>
+<a href="guides.html">Guides</a>
+<a href="videos.html">Videos</a>
+<a class="nav-cta" href="get-matched.html">Get matched</a>
+</nav>
+</div>
+</header>
+
+<main id="main">
+<section class="page-head">
+<div class="wrap">
+<p class="crumbs"><a href="index.html">Home</a> / Acquisition financing</p>
+<h1>Can this business carry the loan?</h1>
+<p class="lede">Lenders do not ask whether you like the business. They ask whether its cash flow covers the debt after paying someone to run it. Run that test here before you make an offer.</p>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap calc">
+<form id="loanc" class="card" novalidate>
+<h2 style="font-size:1.3rem">The deal</h2>
+<div class="row2">
+<div class="field"><label for="l-price-in">Purchase price (USD)</label><input id="l-price-in" name="price" type="number" min="0" inputmode="numeric" value="500000"></div>
+<div class="field"><label for="l-sde-in">Owner cash flow, SDE (USD/yr)</label><input id="l-sde-in" name="sde" type="number" min="0" inputmode="numeric" value="180000"></div>
+</div>
+<div class="row2">
+<div class="field"><label for="l-sal">Market salary for an owner or manager</label><input id="l-sal" name="salary" type="number" min="0" inputmode="numeric" value="70000"><div class="hint">Lenders deduct this before testing coverage</div></div>
+<div class="field"><label for="l-wc">Working capital you will add</label><input id="l-wc" name="wc" type="number" min="0" inputmode="numeric" value="25000"></div>
+</div>
+<h2 style="font-size:1.3rem;margin-top:20px">How you pay for it</h2>
+<div class="row2">
+<div class="field"><label for="l-down">Your down payment (% of price)</label><input id="l-down" name="down" type="number" min="0" max="100" step="0.5" value="10"></div>
+<div class="field"><label for="l-noteP">Seller note (% of price)</label><input id="l-noteP" name="note" type="number" min="0" max="100" step="0.5" value="10"></div>
+</div>
+<div class="row2">
+<div class="field"><label for="l-rate">Bank loan rate (% APR)</label><input id="l-rate" name="rate" type="number" min="0" step="0.05" value="10.5"></div>
+<div class="field"><label for="l-term">Bank loan term (years)</label><input id="l-term" name="term" type="number" min="1" max="30" value="10"></div>
+</div>
+<div class="row2">
+<div class="field"><label for="l-nrate">Seller note rate (% APR)</label><input id="l-nrate" name="note_rate" type="number" min="0" step="0.05" value="6"></div>
+<div class="field"><label for="l-nterm">Seller note term (years)</label><input id="l-nterm" name="note_term" type="number" min="1" max="15" value="5"></div>
+</div>
+<div class="field"><label for="l-close">Closing costs (% of price)</label><input id="l-close" name="closing" type="number" min="0" step="0.5" value="3"><div class="hint">Legal, accounting, lender and escrow fees</div></div>
+<p class="muted" style="font-size:.88rem;margin:0">Defaults are illustrative. Use the rate and terms your lender quotes.</p>
+</form>
+
+<div class="calc-out" aria-live="polite">
+<h2 style="font-size:1.1rem;margin-bottom:6px">Debt service coverage</h2>
+<div class="big-figure" id="l-dscr">—</div>
+<div id="l-verdict" class="verdict mid">Enter a price and financing terms.</div>
+<ul class="out-list">
+<li><span>Bank loan amount</span><b id="l-loan">—</b></li>
+<li><span>Bank payment</span><b id="l-bank">—</b></li>
+<li><span>Seller note payment</span><b id="l-note">—</b></li>
+<li><span>Total debt service per year</span><b id="l-ads">—</b></li>
+<li><span>Cash you need at closing</span><b id="l-cash">—</b></li>
+<li><span>Cash flow left after debt (before your pay and tax)</span><b id="l-after">—</b></li>
+<li><span>Cash-on-cash return after a market salary</span><b id="l-coc">—</b></li>
+<li><span>Years to earn your cash back</span><b id="l-payback">—</b></li>
+<li><span>Price paid</span><b id="l-mult">—</b></li>
+</ul>
+<button id="l-go" class="btn btn-brass" type="button" data-open="finance" style="width:100%">Check my financing options</button>
+<p style="font-size:.82rem;color:#C5D4CB;margin:14px 0 0">Planning estimate only. Not a loan offer or commitment to lend.</p>
+</div>
+</div>
+</section>
+
+<div class="wrap"><div class="ad-wrap" data-ad="display"></div></div>
+
+<section class="sec sec-white">
+<div class="wrap article-grid">
+<div class="prose">
+<h2 style="margin-top:0">Reading the result</h2>
+<p><b>Debt service coverage ratio (DSCR)</b> is the cash flow left after a market salary, divided by a year of loan payments. Many acquisition lenders want to see at least about 1.25x, meaning $1.25 of cash flow for every $1 of debt payments. Below that, one slow quarter can mean missed payments.</p>
+<p><b>Cash-on-cash return</b> shows what your own money earns once the business pays you a normal salary and covers its debt. <b>Payback</b> is how many years of that surplus it takes to recover your cash at closing.</p>
+<h2>Ways to finance a business purchase</h2>
+<table>
+<thead><tr><th>Source</th><th>How it works</th><th>Good fit when</th></tr></thead>
+<tbody>
+<tr><td>SBA 7(a) loan (U.S.)</td><td>Bank loan partly guaranteed by the U.S. Small Business Administration. Loans up to $5 million; changes of ownership are an eligible use.</td><td>Profitable business, verifiable books, buyer with relevant experience and some cash to inject.</td></tr>
+<tr><td>Seller financing</td><td>The seller lends part of the price, repaid over a few years with interest.</td><td>Bridging a funding gap and keeping the seller invested in the handover.</td></tr>
+<tr><td>Conventional bank loan</td><td>Term loan without a government guarantee, usually with more collateral or equity.</td><td>Asset-heavy businesses or buyers with strong balance sheets.</td></tr>
+<tr><td>Retirement-account rollover</td><td>Structures that let you invest retirement savings in your own business.</td><td>Large retirement balance and tolerance for the legal and tax complexity. Get professional advice.</td></tr>
+<tr><td>Earn-out</td><td>Part of the price is paid later if the business hits agreed targets.</td><td>Buyer and seller disagree on future performance.</td></tr>
+<tr><td>Investors or partners</td><td>Equity from friends, family, search-fund investors or a partner.</td><td>Bigger deals, or when you want to keep debt low.</td></tr>
+</tbody>
+</table>
+<p class="src">SBA program limits from <a href="https://www.sba.gov/funding-programs/loans/7a-loans" target="_blank" rel="noopener">sba.gov</a>. Program rules change; confirm current terms with a lender.</p>
+<h2>What acquisition lenders check</h2>
+<ul>
+<li>Three years of business tax returns and year-to-date statements that agree with each other.</li>
+<li>Your personal credit, liquidity and how much of your own cash goes into the deal.</li>
+<li>Industry or management experience that makes you credible as the new operator.</li>
+<li>A purchase agreement or letter of intent, a business valuation and a transition plan.</li>
+<li>Coverage after a market salary, which is exactly what the calculator above tests.</li>
+</ul>
+<p>Go deeper with <a href="sba-loans-to-buy-a-business.html">SBA loans to buy a business</a> and <a href="seller-financing-explained.html">seller financing explained</a>.</p>
+</div>
+<aside>
+<div class="side-cta"><h2>Talk to the right lender</h2><p>Answer six questions. We point you to lenders that finance deals like yours. No credit check.</p><button class="btn btn-brass" type="button" data-open="finance">Check my options</button></div>
+<div class="card"><h2 style="font-size:1rem">Related</h2><p><a href="business-valuation-calculator.html">Valuation calculator</a><br><a href="due-diligence-checklist.html">Due diligence checklist</a><br><a href="letter-of-intent-guide.html">Letter of intent guide</a></p></div>
+</aside>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap">
+<div class="sec-head"><h2>Financing videos</h2><p>SBA lending and deal analysis from practitioners.</p></div>
+<div class="vids" data-videos data-topic="financing" data-limit="3"></div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="wrap ft">
+<div>
+<a class="brand" href="index.html"><span>BusinessForYou<small>.com</small></span></a>
+<p>Find, value, finance and sell small businesses. Free tools, guides and matching for buyers and owners.</p>
+<div data-form="newsletter"></div>
+</div>
+<div><h2>Buy</h2><a href="businesses-for-sale.html">Businesses for sale</a><a href="business-ideas-to-buy.html">Business ideas to buy</a><a href="franchises.html">Franchises</a><a href="get-matched.html">Get matched</a></div>
+<div><h2>Sell and value</h2><a href="sell-your-business.html">Sell your business</a><a href="business-valuation-calculator.html">Valuation calculator</a><a href="business-acquisition-financing.html">Loan calculator</a><a href="due-diligence-checklist.html">Due diligence checklist</a></div>
+<div><h2>Learn</h2><a href="guides.html">Guides</a><a href="videos.html">Videos</a><a href="news.html">Market news</a><a href="about.html">About us</a></div>
+<div><h2>Community</h2><a href="donate.html">Support us</a><a href="contests.html">Contests</a><a href="careers.html">Careers</a><a href="advertise.html">Advertise and partner</a><a href="contact.html">Contact</a></div>
+</div>
+<div class="wrap legal">
+<p>© <span data-year>2026</span> BusinessForYou.com. Independent information service, not a licensed broker, lender or adviser.</p>
+<nav aria-label="Legal"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="disclaimer.html#trademarks">Trademark and copyright</a></nav>
+</div>
+</footer>
+</body>
+</html>
