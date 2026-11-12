@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Valuation Calculator: What Is My Business Worth? | BusinessForYou.com</title>
+<meta name="description" content="Free small-business valuation calculator. Rebuild seller's discretionary earnings (SDE), apply an industry multiple adjusted for risk, and see a value range plus what is dragging it down.">
+<link rel="canonical" href="https://businessforyou.com/business-valuation-calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BusinessForYou.com">
+<meta property="og:title" content="Business valuation calculator">
+<meta property="og:description" content="Estimate what a small business is worth using SDE and risk-adjusted multiples.">
+<meta property="og:url" content="https://businessforyou.com/business-valuation-calculator.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0F3B2F">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/site.js"></script>
+<script defer src="assets/js/tools.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Business valuation calculator","url":"https://businessforyou.com/business-valuation-calculator.html","applicationCategory":"BusinessApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><a href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="site-header">
+<div class="wrap hdr">
+<a class="brand" href="index.html" aria-label="BusinessForYou.com home"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0F3B2F"/><path d="M14 22a6 6 0 0 1 6-6h18l12 12v20a6 6 0 0 1-6 6H20a6 6 0 0 1-6-6z" fill="#C2961E"/><circle cx="40" cy="26" r="3.6" fill="#0F3B2F"/></svg><span>BusinessForYou<small>.com</small></span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" class="nav" aria-label="Main">
+<a href="businesses-for-sale.html">Buy</a>
+<a href="sell-your-business.html">Sell</a>
+<a href="business-valuation-calculator.html">Value</a>
+<a href="business-acquisition-financing.html">Finance</a>
+<a href="franchises.html">Franchises</a>
+<a href="guides.html">Guides</a>
+<a href="videos.html">Videos</a>
+<a class="nav-cta" href="get-matched.html">Get matched</a>
+</nav>
+</div>
+</header>
+
+<main id="main">
+<section class="page-head">
+<div class="wrap">
+<p class="crumbs"><a href="index.html">Home</a> / Valuation calculator</p>
+<h1>What is this business worth?</h1>
+<p class="lede">Rebuild owner cash flow the way brokers do, apply a starting multiple for the size and industry, then adjust for the risks buyers actually price in. Works for your own business or one you want to buy.</p>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap calc">
+<form id="valc" class="card" novalidate>
+<h2 style="font-size:1.3rem">1. Owner cash flow (last 12 months, USD)</h2>
+<div class="row2">
+<div class="field"><label for="v-rev">Annual revenue</label><input id="v-rev" name="revenue" type="number" min="0" inputmode="numeric" value="900000"></div>
+<div class="field"><label for="v-profit">Net profit before tax</label><input id="v-profit" name="profit" type="number" inputmode="numeric" value="120000"></div>
+</div>
+<div class="row2">
+<div class="field"><label for="v-owner">Owner salary and payroll taxes</label><input id="v-owner" name="owner_pay" type="number" min="0" inputmode="numeric" value="70000"></div>
+<div class="field"><label for="v-perks">Owner perks paid by the business</label><input id="v-perks" name="perks" type="number" min="0" inputmode="numeric" value="8000"><div class="hint">Car, phone, health cover, travel</div></div>
+</div>
+<div class="row2">
+<div class="field"><label for="v-int">Interest expense</label><input id="v-int" name="interest" type="number" min="0" inputmode="numeric" value="6000"></div>
+<div class="field"><label for="v-da">Depreciation and amortization</label><input id="v-da" name="da" type="number" min="0" inputmode="numeric" value="12000"></div>
+</div>
+<div class="field"><label for="v-one">One-time expenses that will not repeat</label><input id="v-one" name="oneoff" type="number" min="0" inputmode="numeric" value="4000"><div class="hint">Only costs you can document, such as a lawsuit or a one-off repair</div></div>
+
+<h2 style="font-size:1.3rem;margin-top:24px">2. Industry and risk</h2>
+<div class="field"><label for="v-ind">Industry</label>
+<select id="v-ind" name="industry">
+<option value="services" selected>Services (B2B)</option><option value="restaurant">Food &amp; restaurant</option><option value="retail">Retail</option><option value="home">Home services &amp; trades</option><option value="health">Health &amp; wellness</option><option value="auto">Automotive</option><option value="online">Online &amp; ecommerce</option><option value="saas">SaaS &amp; software</option><option value="manufacturing">Manufacturing</option><option value="wholesale">Wholesale &amp; distribution</option><option value="education">Education &amp; childcare</option><option value="transport">Transport &amp; logistics</option><option value="hospitality">Hospitality &amp; travel</option><option value="beauty">Beauty &amp; personal care</option><option value="other">Other</option>
+</select></div>
+<div class="row2">
+<div class="field"><label for="v-years">Years in business</label><select id="v-years" name="years"><option value="lt2">Under 2</option><option value="y2">2–5</option><option value="y5" selected>5–10</option><option value="y10">10+</option></select></div>
+<div class="field"><label for="v-top">Largest customer's share of sales</label><select id="v-top" name="topcust"><option value="hi">Over 30%</option><option value="mid">15–30%</option><option value="low" selected>Under 15%</option></select></div>
+</div>
+<div class="row2">
+<div class="field"><label for="v-rec">Recurring or contracted revenue</label><select id="v-rec" name="recurring"><option value="most">Most of it</option><option value="some" selected>Some of it</option><option value="none">Little or none</option></select></div>
+<div class="field"><label for="v-own">Owner's role</label><select id="v-own" name="owner"><option value="all">Owner does most key work</option><option value="key" selected>Owner in a key role with staff</option><option value="mgr">Manager runs day to day</option></select></div>
+</div>
+<div class="row2">
+<div class="field"><label for="v-trend">Three-year sales trend</label><select id="v-trend" name="trend"><option value="down">Declining</option><option value="flat" selected>Flat</option><option value="up">Growing 10%+ a year</option></select></div>
+<div class="field"><label for="v-books">Quality of records</label><select id="v-books" name="books"><option value="cpa">Reviewed by an accountant</option><option value="tax" selected>Tax returns match the books</option><option value="messy">Incomplete or cash-heavy</option></select></div>
+</div>
+
+<h2 style="font-size:1.3rem;margin-top:24px">3. Assets sold on top of cash flow</h2>
+<div class="row2">
+<div class="field"><label for="v-inv">Inventory at cost</label><input id="v-inv" name="inventory" type="number" min="0" inputmode="numeric" value="0"></div>
+<div class="field"><label for="v-re">Real estate included</label><input id="v-re" name="realestate" type="number" min="0" inputmode="numeric" value="0"></div>
+</div>
+<p class="muted" style="font-size:.88rem;margin:0">Your inputs are saved in this browser only.</p>
+</form>
+
+<div class="calc-out" aria-live="polite">
+<h2 style="font-size:1.1rem;margin-bottom:6px">Estimated value</h2>
+<div class="big-figure" id="v-mid">$0</div>
+<div class="range-bar" aria-hidden="true"><i id="v-mark" style="left:50%"></i></div>
+<div class="range-labels"><span>Low <b id="v-lo">—</b></span><span>High <b id="v-hi">—</b></span></div>
+<ul class="out-list">
+<li><span>Seller's discretionary earnings (SDE)</span><b id="v-sde">—</b></li>
+<li><span>Multiple applied</span><b id="v-mult">—</b></li>
+<li><span>Value as a multiple of revenue</span><b id="v-revm">—</b></li>
+<li><span>SDE margin</span><b id="v-margin">—</b></li>
+</ul>
+<div id="v-verdict" class="verdict mid">Enter your figures.</div>
+<div class="btn-row mt2">
+<button id="v-go" class="btn btn-brass" type="button" data-open="sell">Get a free expert opinion</button>
+<a class="btn btn-line" style="color:#fff;border-color:#fff" href="business-acquisition-financing.html">Test the financing</a>
+</div>
+<p style="font-size:.82rem;color:#C5D4CB;margin:14px 0 0">An estimate for planning, not an appraisal. Lenders and buyers will verify every figure.</p>
+</div>
+</div>
+</section>
+
+<div class="wrap"><div class="ad-wrap" data-ad="display"></div></div>
+
+<section class="sec sec-white">
+<div class="wrap article-grid">
+<div class="prose">
+<h2 style="margin-top:0">How this calculator works</h2>
+<p>Most businesses that sell for under a few million dollars are priced on <b>seller's discretionary earnings</b>, the total cash benefit one owner-operator receives. The calculator rebuilds it as:</p>
+<p class="note">SDE = net profit before tax + owner salary and payroll taxes + owner perks + interest + depreciation and amortization + documented one-time expenses</p>
+<p>It then sets a starting multiple by size. Smaller businesses carry more risk and trade lower: BizBuySell's Q3 2026 Insight Report put the average cash-flow multiple at 2.30x for deals under $1 million and 3.73x for deals above $1 million. Industry, owner dependence, customer concentration, recurring revenue, trend and record quality each move the multiple up or down.</p>
+<h2>Starting multiples by owner cash flow</h2>
+<table>
+<thead><tr><th>SDE</th><th>Starting multiple used</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Under $100k</td><td>2.0x</td><td>Often a job more than a business; buyer pool is price sensitive</td></tr>
+<tr><td>$100k–$250k</td><td>2.4x</td><td>Typical Main Street deal size</td></tr>
+<tr><td>$250k–$500k</td><td>2.8x</td><td>Room to hire a manager; SBA-financeable</td></tr>
+<tr><td>$500k–$1M</td><td>3.2x</td><td>Attracts experienced buyers and search funds</td></tr>
+<tr><td>Over $1M</td><td>3.7x</td><td>Private-equity and strategic interest begins</td></tr>
+</tbody>
+</table>
+<p class="src">Ranges are planning assumptions calibrated to published market averages. Your actual multiple depends on verified financials and buyer demand.</p>
+<h2>Why inventory and real estate are added separately</h2>
+<p>Cash-flow multiples normally cover goodwill plus the equipment needed to run the business. Inventory is usually sold at cost on top of the price, and real estate is valued on its own, then added. Treat them separately in any offer so you do not pay twice.</p>
+<h2>What the result cannot tell you</h2>
+<ul>
+<li>Whether the add-backs survive due diligence. A buyer's lender will reject anything it cannot verify.</li>
+<li>Working-capital needs. A business that needs heavy receivables or inventory to run will trade lower.</li>
+<li>Local demand. Some industries and towns have more buyers than others.</li>
+<li>Deal terms. Seller financing, an earn-out or a long transition can justify a higher headline price.</li>
+</ul>
+<p>For a deeper walk-through, read <a href="how-to-value-a-business.html">how to value a small business</a>.</p>
+</div>
+<aside>
+<div class="side-cta"><h2>Selling in the next year?</h2><p>Get a confidential range checked by a person, plus the three changes that would raise it most.</p><button class="btn btn-brass" type="button" data-open="sell">Request a valuation</button></div>
+<div class="card"><h2 style="font-size:1rem">Related</h2><p><a href="business-acquisition-financing.html">Loan and DSCR calculator</a><br><a href="prepare-business-for-sale.html">Prepare your business for sale</a><br><a href="due-diligence-checklist.html">Due diligence checklist</a></p></div>
+</aside>
+</div>
+</section>
+
+<section class="sec">
+<div class="wrap">
+<div class="sec-head"><h2>Valuation videos</h2><p>Three ways professionals value a small business, explained on video.</p></div>
+<div class="vids" data-videos data-topic="valuation" data-limit="3"></div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="wrap ft">
+<div>
+<a class="brand" href="index.html"><span>BusinessForYou<small>.com</small></span></a>
+<p>Find, value, finance and sell small businesses. Free tools, guides and matching for buyers and owners.</p>
+<div data-form="newsletter"></div>
+</div>
+<div><h2>Buy</h2><a href="businesses-for-sale.html">Businesses for sale</a><a href="business-ideas-to-buy.html">Business ideas to buy</a><a href="franchises.html">Franchises</a><a href="get-matched.html">Get matched</a></div>
+<div><h2>Sell and value</h2><a href="sell-your-business.html">Sell your business</a><a href="business-valuation-calculator.html">Valuation calculator</a><a href="business-acquisition-financing.html">Loan calculator</a><a href="due-diligence-checklist.html">Due diligence checklist</a></div>
+<div><h2>Learn</h2><a href="guides.html">Guides</a><a href="videos.html">Videos</a><a href="news.html">Market news</a><a href="about.html">About us</a></div>
+<div><h2>Community</h2><a href="donate.html">Support us</a><a href="contests.html">Contests</a><a href="careers.html">Careers</a><a href="advertise.html">Advertise and partner</a><a href="contact.html">Contact</a></div>
+</div>
+<div class="wrap legal">
+<p>© <span data-year>2026</span> BusinessForYou.com. Independent information service, not a licensed broker, lender or adviser.</p>
+<nav aria-label="Legal"><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="disclaimer.html#trademarks">Trademark and copyright</a></nav>
+</div>
+</footer>
+</body>
+</html>
