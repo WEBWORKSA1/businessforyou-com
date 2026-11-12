@@ -11,7 +11,7 @@
     var m = mult(l);
     var badge = l.status === 'verified' ? '<span class="badge badge-ok">Verified</span>' : '<span class="badge badge-ex">Example listing</span>';
     return '<article class="tag">' +
-      '<div class="tag-type">' + esc(l.type) + ' · ' + esc(l.category) + '</div>' +
+      '<div class="tag-type">' + esc(l.type) + ', ' + esc(l.category) + '</div>' +
       '<h3>' + esc(l.title) + '</h3>' +
       '<div class="price">' + money(l.price) + '</div>' +
       '<div class="meta"><span>Cash flow<b>' + money(l.cashflow) + '</b></span><span>Revenue<b>' + money(l.revenue) + '</b></span>' +
@@ -91,7 +91,7 @@
     }
     var m = mult(l);
     $('.dd-body', dd).innerHTML =
-      '<p class="tag-type">' + esc(l.type) + ' · ' + esc(l.category) + ' · ID ' + esc(l.id) + '</p>' +
+      '<p class="tag-type">' + esc(l.type) + ', ' + esc(l.category) + '. Listing ID ' + esc(l.id) + '</p>' +
       '<h2>' + esc(l.title) + '</h2>' +
       (l.status === 'verified' ? '' : '<div class="note">This is an example listing. It shows how verified listings are presented and is not an offer of a real business. <a href="sell-your-business.html">List a real business free</a>.</div>') +
       '<div class="detail-metrics">' +
